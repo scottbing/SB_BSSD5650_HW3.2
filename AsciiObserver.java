@@ -8,5 +8,7 @@ public class AsciiObserver implements PropertyChangeListener {
     @Override
     public void propertyChange(PropertyChangeEvent evt) {
         int val = (int)evt.getNewValue();
+        char output = (char)(val);
+        System.out.println("ASCII String: " + output);
     }
 }

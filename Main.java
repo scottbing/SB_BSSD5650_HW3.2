@@ -11,11 +11,12 @@ public class Main {
         nb.addPropertyChangeListener(new BinaryObserver());
         nb.addPropertyChangeListener(new OctalObserver());
         nb.addPropertyChangeListener(new HexObserver());
+        nb.addPropertyChangeListener(new AsciiObserver());
 
-        System.out.println("First state change: 15");
-        nb.setValue(15);
-        System.out.println("First state change: 10");
-        nb.setValue(10);
+        System.out.println("First state change: 107");
+        nb.setValue(107);
+        System.out.println("First state change: 67");
+        nb.setValue(67);
 
     }
 }
