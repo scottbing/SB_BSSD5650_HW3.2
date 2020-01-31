@@ -1,0 +1,2 @@
+# SB_BSSD5650_HW3.2
+BSSD5650 Homework 3.2 Scott Bing
