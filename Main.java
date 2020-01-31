@@ -15,8 +15,10 @@ public class Main {
 
         System.out.println("First state change: 107");
         nb.setValue(107);
-        System.out.println("First state change: 67");
-        nb.setValue(67);
+        System.out.println("First state change: 99");
+        nb.setValue(99);
+        System.out.println("First state change: 111");
+        nb.setValue(111);
 
     }
 }
