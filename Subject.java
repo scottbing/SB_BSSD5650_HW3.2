@@ -1,6 +1,9 @@
+package com.company;
+
 import java.util.ArrayList;
 
 public class Subject {
+
     private ArrayList<Observer> mObservers = new ArrayList<Observer>();
     private int mState;
 
@@ -18,4 +21,5 @@ public class Subject {
             observer.update();
         }
     }
+
 }

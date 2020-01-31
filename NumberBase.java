@@ -1,7 +1,9 @@
+package com.company;
+
 import java.beans.PropertyChangeListener;
 import java.beans.PropertyChangeSupport;
 
-public class NumberBase extends Subject {
+public class NumberBase {
 
     private final PropertyChangeSupport pcs = new PropertyChangeSupport(this);
 
@@ -24,4 +26,5 @@ public class NumberBase extends Subject {
         this.value = newValue;
         this.pcs.firePropertyChange("value", oldValue, newValue);
     }
+
 }

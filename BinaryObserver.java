@@ -1,3 +1,5 @@
+package com.company;
+
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 
@@ -9,4 +11,5 @@ public class BinaryObserver implements PropertyChangeListener {
         String output = Integer.toBinaryString(val);
         System.out.println("Binary String: " + output);
     }
+
 }
